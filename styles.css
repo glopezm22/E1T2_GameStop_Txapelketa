@@ -1,0 +1,84 @@
+body {
+    background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#edukia {
+    margin: 2%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+aside {
+    background-color: #a9a9a9;
+    padding: 20px;
+    float: right;
+    width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.berria {
+    background-color: #c0c0c0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
