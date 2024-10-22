@@ -1,9 +1,15 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 body {
     background-color: #d3d3d3;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+
+    }
+
 
 #edukia {
     margin: 2%;
@@ -83,14 +89,58 @@ footer {
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.foto {
-    display: flex;
-    width: 10%;
-    margin-right: 10%;
-    align-items: center
-}
 
-main{
+main {
     margin-left: 20px;
 }
 
+.foto {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.personal img{
+    width: 10%;
+    
+    
+}
+
+.descr {
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.gear-items img{
+    display: flex;
+    width: 35%;
+    height: 15%;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    border-radius: 10%;
+    
+}
+.gear-section{
+    margin: 20px;
+}
+.gear-items{
+    text-align: center;
+    
+}
+.deskribapena{
+    justify-content: center;
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+header{
+    margin-bottom: 2%;
+}
+
+.arrunta{
+    justify-content: left;
+    margin-right: 30%;
+}
