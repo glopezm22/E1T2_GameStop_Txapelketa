@@ -1,4 +1,4 @@
-h1{
+h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
 
-    }
+}
 
 
 #edukia {
@@ -60,7 +60,7 @@ aside {
     width: 25%;
     height: 100vh;
     box-sizing: border-box;
-    
+
 }
 
 .berria {
@@ -100,12 +100,13 @@ main {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
-.personal img{
+
+.personal img {
     width: 10%;
-    
-    
+
+
 }
 
 .descr {
@@ -114,34 +115,67 @@ main {
 
 }
 
-.gear-items img{
+.gear-items img {
     display: flex;
     width: 35%;
     height: 15%;
     flex-wrap: wrap;
     margin-left: 30%;
     border-radius: 10%;
-    
-}
-.gear-section{
-    margin: 20px;
-}
-.gear-items{
-    text-align: center;
-    
-}
-.deskribapena{
-    justify-content: center;
-    text-align: center;
-    margin-left:20%;
-    margin-right:20%;
+
 }
 
-header{
+.gear-section {
+    margin: 20px;
+}
+
+.gear-items {
+    text-align: center;
+
+}
+
+.deskribapena {
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header {
     margin-bottom: 2%;
 }
 
-.arrunta{
+.arrunta {
     justify-content: left;
     margin-right: 30%;
 }
+
+.ph {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    
+}
+
+.ph img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+.foto {
+    margin-bottom: -1px;
+}
+
+.texto {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.fila-nombres {
+    background-color: white;
+    height:50px;
+  }
