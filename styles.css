@@ -154,3 +154,15 @@ footer {
     position: relative;
     bottom: auto;
 }
+
+.foto {
+    display: flex;
+    width: 10%;
+    margin-right: 10%;
+    align-items: center
+}
+
+main{
+    margin-left: 20px;
+}
+
