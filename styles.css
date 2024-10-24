@@ -1,12 +1,51 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202020;
+}
+
+h4 {
+    font-weight: bold;
+
+}
 body {
-    background-color: #d3d3d3;
+    background-color: #202020;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #f0f0f0;
+}
+.BodyText{
+margin: 20px;
+margin-right: 30%;
+text-align: justify;
+}
+
+#azkenberriak {
+border-radius:50px;
+}
+
+#azkenberriak {
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #424242
+}
+
+.berria {
+    background-color: #dadada;
+    color: #202020;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: justify;
 }
 
 #edukia {
     margin: 2%;
+}
+
+#kontaktua {
+    color: #202020;
+    min-height: fit-content;
 }
 
 header {
@@ -14,7 +53,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #dadada;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,37 +87,70 @@ nav ul li a:hover {
 }
 
 aside {
-    background-color: #a9a9a9;
-    padding: 20px;
+    padding:20px;
     float: right;
     width: 25%;
-    height: 100vh;
-    box-sizing: border-box;
 }
 
 .berria {
-    background-color: #c0c0c0;
+    background-color: #dadada;
+    color: #202020;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 
 form {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #dadada;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
 }
 
-/* Estilo del footer */
+form label {
+    grid-column: 1 / 2;
+    margin-right: 10px;
+    align-items: center;
+}
+
+form input, form textarea {
+    grid-column: 2 / 3;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    grid-column: 2 / 3;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
+    padding: 10px;
+    background-color: #dadada;
+    font-style: oblique;
+    font-weight: bold;
+    color: #202020;
     position: relative;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    bottom: auto;
 }
