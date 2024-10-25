@@ -159,9 +159,14 @@ footer {
 .foto {
 
     display: flex;
+    width: 10%;
+    margin-right: 10%;
     align-items: center;
     flex-wrap: wrap;
 
+}
+main{
+    margin-left: 20px;
 }
 
 .personal img {
@@ -232,6 +237,7 @@ header {
 .texto {
     margin-top: 10px;
     text-align: center;
+    color:#202020;
     font-weight: bold;
     
 }
