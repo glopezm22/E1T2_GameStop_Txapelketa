@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>E1T2 GameStop Txapelketa</title>
+    <title>GameStop Txapelketa</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <img src="argazkiak/gamestoplogo.png">
         <nav>
             <ul>
-                <li><a href="ph/index.html">Parte-hartzaileak</a></li>
+                <li><a href="ph/partehartzaileak.html">Parte-hartzaileak</a></li>
                 <li>Azken berriak</li>
                 <li>Sailkapena</li>
                 <li>Gaming espazioa</li>
@@ -35,7 +35,7 @@
                 edizioak arrakasta handia izan du, eta jende ugari bildu da ekitaldira.</p>
         </div>
         <div class="berria">
-            <h3>Partehartzaileen aurkezpena</h3>
+            <h3>Parte-hartzaileen aurkezpena</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, dolor non lacinia
                 mollis, odio neque consectetur dolor, at consequat nibh magna et tellus. Fusce blandit magna vel dapibus
                 egestas. Donec aliquam pellentesque egestas. Cras lorem nisl, hendrerit ut metus sit amet,
@@ -119,47 +119,56 @@
                     mollis,
                     odio neque consectetur dolor, at consequat nibh magna et tellus. Fusce blandit magna vel dapibus
                     egestas. Donec aliquam pellentesque egestas. Cras lorem nisl, hendrerit ut metus sit amet,
-                    condimentum
+                    condimentum hendrerit neque. Aenean ligula orci, gravida fermentum dolor eu, semper imperdiet dui.
+                    Duis at
+                    erat dignissim, egestas magna at, lobortis ante. Sed vel gravida turpis.condimentum
                     hendrerit neque. Aenean ligula orci, gravida fermentum dolor eu, semper imperdiet dui. Duis at erat
                     dignissim, egestas magna at, lobortis ante. Sed vel gravida turpis.</p>
+            </div>
+        </article>
+    </section>
+</div>
+<section id="gamingespazioa">
+    <article>
+        <h2>Gaming eta Streaming gunea</h2>
+        <div class="gunea">
+            <p>Txapelketa gure egoitzan egingo da, non jokalari guztiek giro ezin hobea aurkituko duten
+                lehiatzeko.
+                Streaming-erako prestatutako areto moderno bat izango dugu, zuzeneko emanaldia kalitate handiz
+                eskaintzeko. Bertan, ikusleek txapelketako emozio guztiak jarraitzeko aukera izango dute,
+                ekipamendu
+                tekniko aurreratuekin eta zuzeneko analisia egiteko guneekin. Espazioak jokalari eta
+                ikusleentzako
+                egokitutako eremuak ditu, parte-hartzaile bakoitzari esperientzia paregabea eskaintzeko.</p>
+        </div>
+    </article>
+</section>
+    <section id="kontaktua">
+        <article>
+            <div class="form">
+                <form action="/enviar-datos" method="POST">
+                    <h4>Kontaktatu gurekin:</h4>
+                    <label for="izena">Izena:</label>
+                    <input type="text" id="izena" name="izena">
+                    <label for="email">Posta elektronikoa:</label>
+                    <input type="text" id="email" name="email">
+                    <label for="gaia">Gaia:</label>
+                    <input type="text" id="gaia" name="gaia">
+                    <label for="mezua">Mezua:</label>
+                    <input type="text" id="mezua" name="mezua">
+                    <div class="botoia">
+                        <input type="submit" value="Bidali">
+                </div>
+                </form>
+            </div>
+        </article>
+    </section>
+                    
 
             </article>
         </section>
-        <section id="gamingespazioa">
-            <article>
-                <h2>Gaming eta Streaming gunea</h2>
-                <div class="gunea">
-                    <p>Txapelketa gure egoitzan egingo da, non jokalari guztiek giro ezin hobea aurkituko duten
-                        lehiatzeko.
-                        Streaming-erako prestatutako areto moderno bat izango dugu, zuzeneko emanaldia kalitate handiz
-                        eskaintzeko. Bertan, ikusleek txapelketako emozio guztiak jarraitzeko aukera izango dute,
-                        ekipamendu
-                        tekniko aurreratuekin eta zuzeneko analisia egiteko guneekin. Espazioak jokalari eta
-                        ikusleentzako
-                        egokitutako eremuak ditu, parte-hartzaile bakoitzari esperientzia paregabea eskaintzeko.</p>
-                </div>
-            </article>
-        </section>
-        <section id="kontaktua">
-            <article>
-                <h2>Kontaktuan jarri</h2>
-                <div>
-                    <form action="/enviar-datos" method="POST">
-                        <label for="izena">Izena:</label>
-                        <input type="text" id="izena" name="izena" placeholder="Izena">
-                        <label for="email">Posta elektronikoa:</label>
-                        <input type="text" id="email" name="email" placeholder="Email">
-                        <label for="gaia">Gaia:</label>
-                        <input type="text" id="gaia" name="gaia" placeholder="Gaia">
-                        <label for="mezua">Mezua:</label>
-                        <input type="text" id="mezua" name="mezua" placeholder="Mezua">
-                        <div class="botoia">
-                            <input type="submit" value="Bidali">
-                        </div>
-                    </form>
-                </div>
-            </article>
-        </section>
+        
+        
         </div>
     </main>
     <footer>
