@@ -262,7 +262,8 @@ header {
     height: auto;
     padding: 50px;
     border-radius: 90px;
-
+    background-color: #2e2e2e;
+    background: fixed;
 }
 
 .contenedor {
@@ -365,8 +366,6 @@ header {
 
 }
 
-
-
 .ikusigehiago {
     margin: 20px;
 
@@ -391,7 +390,6 @@ margin-left: 20px;
 
 .egutegia {
     width: 100%;
-    margin-top: 5;
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
