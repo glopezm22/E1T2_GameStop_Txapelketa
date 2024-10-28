@@ -22,6 +22,12 @@ body {
 
 }
 
+.logoph {
+    height: 35%;
+    width: 10%; 
+
+}
+
 #sarrera {
     text-align: justify;
     margin: 20px;
@@ -120,7 +126,7 @@ aside {
     width: 25%;
     background-color: #555;
     border-radius: 25px;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 15%;
 }
 
@@ -128,7 +134,7 @@ aside {
     background-color: #dadada;
     color: #202020;
     padding: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     border-radius: 5px;
 }
 
@@ -178,14 +184,15 @@ form button:hover {
 }
 
 footer {
-    text-align: center;
     padding: 10px;
     background-color: #dadada;
     font-style: oblique;
     font-weight: bold;
     color: #202020;
     position: relative;
-    bottom: auto;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
 }
 
 .foto {
@@ -194,6 +201,7 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 
+
 }
 
 .personal img {
@@ -201,6 +209,15 @@ footer {
 
 
 }
+
+.ph {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    ;
+}
+
 
 .descr {
     margin-left: 20px;
@@ -241,13 +258,6 @@ header {
 .arrunta {
     justify-content: left;
     margin-right: 30%;
-}
-
-.ph {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 80px;
-
 }
 
 .ph img {
