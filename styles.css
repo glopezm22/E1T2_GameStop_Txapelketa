@@ -14,24 +14,16 @@ body {
     margin: 0;
     padding: 0;
     color: #f0f0f0;
-}
-
-.logo {
-    height: 35%;
-    width: 35%;
-
-}
-
-.logoph {
-    height: 35%;
-    width: 10%; 
-
-}
-
-#sarrera {
     text-align: justify;
+}
+.logo {
+ height: 35%;
+ width: 35%;
+
+}
+.BodyText {
     margin: 20px;
-    margin-right: 2%;
+    text-align: justify;
 }
 
 #azkenberriak {
@@ -39,28 +31,9 @@ body {
 }
 
 #azkenberriak {
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 50px;
     margin-right: 20px;
-}
-
-#sailkapena {
-    text-align: justify;
-    margin: 20px;
-    margin-right: 31%;
-}
-
-#gamingespazioa {
-    text-align: justify;
-    margin: 20px;
-    margin-right: 31%;
-}
-
-#partehartzaileak {
-    text-align: justify;
-    margin: 20px;
-    margin-right: 31%;
-
+    background-color: #424242
 }
 
 .berria {
@@ -75,6 +48,12 @@ body {
 
 #edukia {
     margin: 2%;
+}
+
+#gamingespazioa {
+    margin-right: 10%;
+    margin-left: 20px;
+    text-align: justify;
 }
 
 #kontaktua {
@@ -124,17 +103,15 @@ aside {
     padding: 20px;
     float: right;
     width: 25%;
-    background-color: #555;
-    border-radius: 25px;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    background-color:#555;
+    border-radius: 15px;
 }
 
 .berria {
     background-color: #dadada;
     color: #202020;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     border-radius: 5px;
 }
 
@@ -184,15 +161,14 @@ form button:hover {
 }
 
 footer {
+    text-align: center;
     padding: 10px;
     background-color: #dadada;
     font-style: oblique;
     font-weight: bold;
     color: #202020;
     position: relative;
-    margin: 0 auto;
-    height: 50px;
-    text-align: center;
+    bottom: auto;
 }
 
 .foto {
@@ -201,7 +177,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 
-
 }
 
 .personal img {
@@ -209,15 +184,6 @@ footer {
 
 
 }
-
-.ph {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-left: 80px;
-    ;
-}
-
 
 .descr {
     margin-left: 20px;
@@ -260,26 +226,220 @@ header {
     margin-right: 30%;
 }
 
+.ph {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    border-radius: 10px;
+
+}
+
 .ph img {
     max-width: 300px;
     height: auto;
-    border-radius: 10%;
+
 }
 
 
+
+
+
+.fila-nombres {
+    background-color: white;
+    height: 50px;
+
+}
+
+.pj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.pj img {
+    max-width: 300px;
+    height: auto;
+    padding: 50px;
+    border-radius: 90px;
+
+}
+
+.contenedor {
+    text-align: center;
+    /* Centra el contenido dentro de la celda */
+    border: 2px;
+    /* Borde estándar */
+    border-radius: 15px;
+    /* Borde redondeado */
+    padding: 10px;
+    /* Espacio interno dentro del contenedor */
+    margin: 10px;
+    /* Espacio externo alrededor del contenedor */
+}
+
 .foto {
-    margin-bottom: -1px;
+    margin: 0 auto;
+    /* Centra la imagen */
+    display: block;
+    /* Asegura que la imagen esté en su propia línea */
+    width: 100%;
+    /* Ajusta el tamaño de la imagen al contenedor si es necesario */
 }
 
 .texto {
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
-    color: #202020;
+    margin: 0;
+    padding: 10px;
+    
+  
+    
+}
+.texto :hover{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+.slider {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
 
 }
 
-.fila-nombres {
-    background-color: white;
-    height: 50px;
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 10s infinite alternate ease-in;
+
+}
+
+.slider li {
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 1087px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.slider img {
+    border-radius: 10%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0%
+    }
+
+    33% {
+        margin-left: 0%
+    }
+
+    36% {
+        margin-left: -100%
+    }
+
+    66% {
+        margin-left: -100%
+    }
+
+    69% {
+        margin-left: -200%
+    }
+
+    100% {
+        margin-left: -200%
+    }
+
+
+
+}
+
+
+
+.ikusigehiago {
+    margin: 20px;
+
+}
+
+.buttonForm {
+    border-radius: 10px;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.buttonForm:hover {
+    background-color: #CD5C5C;
+    color: white;
+
+}
+
+.EgutegiTitle {
+margin-left: 20px;
+}
+
+.egutegia {
+    width: 100%;
+    margin-top: 5;
+    margin: 20px 0;
+    border-collapse: collapse;
+    justify-self: center;
+}
+
+.egutegia th, .egutegia td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.egutegia th {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.egutegia tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.egutegia td {
+    color: #555;
+}
+
+.egutegia td.ekitaldi-garrantzitsua {
+    font-weight: bold;
+    background-color: #CD5C5C;
+    color: #fff;
+}
+.fondo-gris {
+    background-color: #333 !important; 
+}
+.fondo-gris td{
+    color: #d3d3d3;
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+}
+.news-item{
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    padding: 1.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.news-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.5);
 }
