@@ -280,10 +280,17 @@ header {
     text-align: center;
     font-weight: bold;
     margin: 0;
-    /* Elimina el margen por defecto del párrafo */
     padding: 10px;
-    /* Espacio entre el texto y el borde */
-
+    
+  
+    
+}
+.texto :hover{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
 }
 
 .slider {
@@ -346,15 +353,14 @@ header {
 
 }
 
-#sailkapena {
-    /* margin-top: -750px; */
-}
-.ikusigehiago{
-    margin: 20px ;
-   
+
+
+.ikusigehiago {
+    margin: 20px;
+
 }
 
-.buttonForm{
+.buttonForm {
     border-radius: 10px;
     padding: 1%;
     padding-left: 1%;
@@ -362,7 +368,61 @@ header {
 }
 
 .buttonForm:hover {
-    background-color: #CD5C5C ;
+    background-color: #CD5C5C;
     color: white;
-   
+
+}
+
+
+.egutegia {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.egutegia th, .egutegia td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.egutegia th {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.egutegia tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.egutegia td {
+    color: #555;
+}
+
+.egutegia td.ekitaldi-garrantzitsua {
+    font-weight: bold;
+    background-color: #CD5C5C;
+    color: #fff;
+}
+.fondo-gris {
+    background-color: #333 !important; 
+}
+.fondo-gris td{
+    color: #d3d3d3;
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+}
+.news-item{
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    padding: 1.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.news-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.5);
 }
