@@ -694,51 +694,43 @@ hr{
 }
 .mapa{
     display: grid;
-    justify-items: center; 
-    margin-left: 2%;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2%;
-    
-    
-}
-
-.stream{
-    display: grid;
     color: white;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 1050px;
-    margin-top: 5%;
-    float: left;
+    width: 1300px;
     margin-left: 2%;
-    
 }
-.arauak{
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1050px;
-    margin-top: 5%;
-    float: right;
-    margin-right: 2%;
 
-}
-.stream p{
+.mapa p{
     display: grid;
     color: black;
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
-    width: 1000px;
+    width: 1270px;
+    margin-left: 2%;
 }
-.arauak p{
+
+
+    
+
+.twitch{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1300px;
+    margin-left: 2%;
+}
+
+.twitch p{
     display: grid;
     color: black;
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
-    width: 1000px;
+    width: 1270px;
+    margin-left: 2%;
 }
