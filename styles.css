@@ -28,12 +28,15 @@ body {
 
 #azkenberriak {
     border-radius: 50px;
+    
+    
 }
 
 #azkenberriak {
     margin-top: 50px;
     margin-right: 20px;
     background-color: #424242
+    
 }
 
 .berria {
@@ -54,6 +57,7 @@ body {
     margin-right: 10%;
     margin-left: 20px;
     text-align: justify;
+    
 }
 
 #kontaktua {
@@ -382,6 +386,8 @@ header {
     padding: 1%;
     padding-left: 1%;
     padding-right: 1%;
+   
+   
 }
 
 .buttonForm:hover {
@@ -390,15 +396,14 @@ header {
 
 }
 
-.EgutegiTitle {
-margin-left: 20px;
-}
+
 
 .egutegia {
     width: 100%;
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
+    
 }
 
 .egutegia th, .egutegia td {
@@ -453,21 +458,84 @@ margin-left: 20px;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
+    width: 1300px;
 }
-
-
 .arrunta{
     display: grid;
     color: black;
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
+    width: 1270px;
+    
+}
+ 
+hr{
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+    
+
+}
+.botonprincipal {
+    border-radius: 10px;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+   
+   
 }
 
-hr {
-    border: none;  
-    border-top: 1px solid white; 
-    margin: 10px 0;  
+.botonprincipal:hover {
+    background-color: #CD5C5C;
+    color: white;
+
+}
+.mapa{
+    display: grid;
+    justify-content: center;
+}
+
+.stream{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    margin-top: 5%;
+    float: left;
+    margin-left: 2%;
+    
+}
+.arauak{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    margin-top: 5%;
+    float: right;
+    margin-right: 2%;
+
+}
+.stream p{
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
+}
+.arauak p{
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
 }
 
 #cookieConsent {
