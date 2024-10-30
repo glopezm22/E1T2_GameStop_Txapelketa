@@ -177,14 +177,16 @@ footer {
     flex-wrap: wrap;
 
 }
+
 /*Aqui le meto el tipo de transicion*/
 .foto:hover {
-    -webkit-transform:scale(1.3);transform:scale(1.1);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 /*Aqui le meto que la transicion sea fluida con el transition: transform 0.3s ease;*/
 .foto {
-    overflow:hidden;
+    overflow: hidden;
     transition: transform 0.3s ease;
 }
 
@@ -832,13 +834,15 @@ hr {
     align-items: center;
     border-radius: 8px;
 }
-.mix{
+
+.mix {
     display: flex;
     justify-content: space-between;
     margin-right: 1100px;
     align-items: stretch;
 }
-.stream{
+
+.stream {
     width: 10%;
     height: auto;
     padding-right: 20px;
@@ -853,8 +857,9 @@ hr {
     width: 500px;
     height: 566px;
     margin-top: 20px;
- 
+
 }
+
 .mama {
     display: grid;
     color: black;
