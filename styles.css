@@ -35,17 +35,37 @@ body {
     padding: 10px;
     border-radius: 10px;
     width: 1300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-#azkenberriak {
-    border-radius: 50px;
+.gamingoinarri {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right:0;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width:20%
     
     
 }
 
+.arrunta {
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 15px;
+    color:#202020;
+
+}
+
 #azkenberriak {
+    border-radius: 50px;
+}
+
+#azkenberriak {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #424242
+    background-color: #424242 
     
 }
 
@@ -56,6 +76,7 @@ body {
     margin-bottom: 25px;
     border-radius: 5px;
     text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -153,7 +174,6 @@ form textarea {
 }
 
 form button {
-    grid-column: 2 / 3;
     padding: 10px;
     background-color: #333;
     color: #fff;
@@ -211,8 +231,8 @@ header {
 }
 
 .botonprincipal {
-    justify-content:left;
-    width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 1000px;
     border-radius: 10px;
     padding: 1%;
     padding-left: 1%;
@@ -282,7 +302,7 @@ header {
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
-    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .egutegia th,
@@ -333,14 +353,12 @@ header {
 
 /*----PH pertsonen egitura (PH orrian)---*/
 .foto {
-
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
     display: block;
     width: 100%;
-
 }
 .ph {
     display: flex;
@@ -452,7 +470,7 @@ header {
 /*----Azken berrien INDEX-aren estiloa---*/
 
 
-/*----Sailkapena Orria---*/
+/*----Gaming espazio orria---*/
 
 hr{
     border: none;
@@ -462,22 +480,33 @@ hr{
 
 }
 
+.mapastream{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
-.mapa{
-    display: grid;
-    justify-content: center;
 }
 
-.stream{
-    display: grid;
+.mapa {
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: #555;
+    padding: 25px;
+    width: 50%; 
+    margin-left: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream {
     color: white;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 1050px;
+    width: 60%; 
     margin-top: 5%;
-    float: left;
-    margin-left: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .arauak{
@@ -488,8 +517,21 @@ hr{
     border-radius: 10px;
     width: 1050px;
     margin-top: 5%;
-    float: right;
+    float: left;
+    margin: 2%;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.twitch {
+    max-width: 35%;
+    max-height: 20%;
+    background-color: #555;
+    padding: 25px;
+    border-radius: 15px;
+    float: right    ;
     margin-right: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .stream p{
@@ -509,4 +551,4 @@ hr{
     border-radius: 10px;
     width: 1000px;
 }
-/*----Sailkapena Orria---*/
+/*----Gaming espazio orria---*/
