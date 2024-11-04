@@ -38,15 +38,14 @@ body {
 }
 #azkenberriak {
     border-radius: 50px;
-    
-    
+
+
 }
 
 #azkenberriak {
     margin-top: 50px;
     margin-right: 20px;
     background-color: #424242
-    
 }
 
 .berria {
@@ -64,10 +63,9 @@ body {
 }
 
 #gamingespazioa {
-    margin-right: 10%;
-    margin-left: 20px;
+    margin-right: 1150px;
     text-align: justify;
-    
+
 }
 
 #kontaktua {
@@ -117,7 +115,7 @@ aside {
     padding: 20px;
     float: right;
     width: 25%;
-    background-color:#555;
+    background-color: #555;
     border-radius: 15px;
 }
 
@@ -190,8 +188,22 @@ main{
     margin-left: 20px;
 }
 
+/*Aqui le meto el tipo de transicion*/
+.foto:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+/*Aqui le meto que la transicion sea fluida con el transition: transform 0.3s ease;*/
+.foto {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+
 .personal img {
     width: 10%;
+    border-radius: 10px;
 
 
 }
@@ -399,8 +411,8 @@ header {
     padding: 1%;
     padding-left: 1%;
     padding-right: 1%;
-   
-   
+
+
 }
 
 .buttonForm:hover {
@@ -419,7 +431,7 @@ header {
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
-    
+
 }
 
 .egutegia th,
@@ -456,6 +468,85 @@ header {
     color: #d3d3d3;
 }
 
+
+#azkenberriak {
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #424242
+}
+
+#edukia {
+    margin: 2%;
+}
+
+/*----Oinarri orria azken berrien atala---*/
+.berria {
+    background-color: #dadada;
+    color: #202020;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+aside {
+    padding: 20px;
+    float: right;
+    width: 25%;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+/*----Oinarri orria azken berrien atala---*/
+
+/*----Oinarri Orria----*/
+
+
+/*----Orri Guztien GameStop Header eta Logoa----*/
+.logo {
+    height: 35%;
+    width: 35%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    align-items: center;
+    padding: 20px;
+    background-color: #dadada;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*----Header menua---*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*----Header Menua---*/
+
 /*----Orri Guztien GameStop Header eta Logoa----*/
 
 
@@ -479,6 +570,7 @@ header {
     width: 100%;
 
 }
+
 .ph {
     display: flex;
     flex-wrap: wrap;
@@ -492,6 +584,7 @@ header {
     height: auto;
 
 }
+
 .fila-nombres {
     background-color: white;
     height: 50px;
@@ -521,6 +614,7 @@ header {
     padding: 10px;
     margin: 10px;
 }
+
 /*----PH-en pertsonen egitura (PH orrian)---*/
 
 
@@ -559,6 +653,7 @@ header {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 .texto {
     margin-top: 10px;
     text-align: center;
@@ -566,6 +661,7 @@ header {
     margin: 0;
     padding: 10px;
 }
+
 /*----PH pertsona bakoitzaren barruko html-aren egitura---*/
 
 
@@ -588,24 +684,42 @@ header {
 }
 
 
-/*----Sailkapena Orria---*/
+.guztia {
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1300px;
+}
 
-hr{
+.arrunta {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1270px;
+
+}
+
+hr {
     border: none;
     border-top: 1px solid white;
     margin: 10px 0;
-    
+
 
 }
+
 .botonprincipal {
     border-radius: 10px;
     padding: 1%;
     padding-left: 1%;
     padding-right: 1%;
     margin-right: 500px;
-    
-   
-   
+
+
+
 }
 
 
@@ -619,19 +733,30 @@ hr{
     
 }
 
-.stream{
+.mapa {
     display: grid;
     color: white;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 1050px;
-    margin-top: 5%;
-    float: left;
+    width: 1300px;
     margin-left: 2%;
 }
 
-.arauak{
+.mapa p {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1270px;
+    margin-left: 2%;
+}
+
+
+
+
+.twitch {
     display: grid;
     color: white;
     background-color: #555;
@@ -644,6 +769,129 @@ hr{
 }
 
 .stream p{
+    width: 1300px;
+    margin-left: 2%;
+}
+
+.twitch p {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1270px;
+    margin-left: 2%;
+}
+
+
+
+.tournament-grid {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.round-1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+
+.round-2 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.round-3 {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.round-4 {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.finalista-A {
+    position: absolute;
+    top: 250px;
+    left: 430px;
+}
+
+.finalista-B {
+    position: absolute;
+    top: 250px;
+    right: 430px;
+}
+
+
+.final {
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.match {
+    width: 100px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.mix {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1100px;
+    align-items: stretch;
+}
+
+.stream {
+    width: 10%;
+    height: auto;
+    padding-right: 20px;
+}
+
+.papa {
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 566px;
+    margin-top: 20px;
+
+}
+
+.mama {
     display: grid;
     color: black;
     background-color: #dadada;
@@ -684,3 +932,7 @@ hr{
     margin-left: 10px;
 }
 /*----Sailkapena Orria---*/
+    width: 480px;
+    height: 300px;
+
+}
