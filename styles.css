@@ -760,9 +760,10 @@ hr {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 1000px;
-    height: 600px;
+    width: 1400px;
+    height: 800px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
 .round-1 {
@@ -771,7 +772,8 @@ hr {
     left: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 80px;
+    
 }
 
 .round-2 {
@@ -780,7 +782,7 @@ hr {
     left: 200px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 150px;
 }
 
 .round-3 {
@@ -789,7 +791,7 @@ hr {
     right: 200px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 150px;
 }
 
 .round-4 {
@@ -798,27 +800,27 @@ hr {
     right: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 80px;
 }
 
 
 .finalista-A {
     position: absolute;
-    top: 300px;
-    left: 280px;
+    top: 250px;
+    left: 430px;
 }
 
 .finalista-B {
     position: absolute;
-    top: 300px;
-    right: 280px;
+    top: 250px;
+    right: 430px;
 }
 
 
 .final {
     position: absolute;
-    top: 450px;
-    left: 450px;
+    top: 350px;
+    left: 650px;
     display: flex;
     flex-direction: column;
     gap: 20px;
