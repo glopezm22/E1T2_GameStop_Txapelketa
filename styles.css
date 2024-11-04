@@ -667,66 +667,7 @@ hr {
 
 }
 
-.mapastream{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 
-}
-
-.mapa {
-    border-radius: 15px;
-    max-width: 600px;
-    background-color: #555;
-    padding: 25px;
-    width: 50%; 
-    margin-left: 2%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.stream {
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1000px;
-    margin-left: 2%;
-    width: 10%;
-    padding-right: 20px;
-}
-
-.mapa p {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
-    margin-left: 2%;
-}
-
-
-
-
-.twitch {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1300px;
-    margin-left: 2%;
-}
-
-.twitch p {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
-    margin-left: 2%;
-}
 
 
 
@@ -826,6 +767,63 @@ hr {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+
+
+
+
+
+
+/*----Gaming espazio orria---*/
+.gey {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+
+}
+
+/*----Gaming espazio orria---*/
+
+hr{
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+    
+
+}
+
+.mapastream{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.mapa {
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: #555;
+    padding: 25px;
+    width: 50%; 
+    margin-left: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream {
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%; 
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .arauak{
     display: grid;
     color: white;
@@ -857,9 +855,7 @@ hr {
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
-    width: 480px;
-    height: 300px;
-
+    width: 1000px;
 }
 
 .arauak p{
@@ -871,15 +867,3 @@ hr {
     width: 1000px;
 }
 /*----Gaming espazio orria---*/
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 500px;
-    height: 450px;
-
-}
-
-
