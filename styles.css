@@ -18,21 +18,55 @@ body {
     text-align: justify;
 }
 
+.logo {
+ height: 35%;
+ width: 35%;
+}
+
 .BodyText {
     margin: 20px;
     text-align: justify;
 }
 
-#azkenberriak {
-    border-radius: 50px;
+.guztia{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.gamingoinarri {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right:0;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width:20%
+    
+    
+}
 
+.arrunta {
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 15px;
+    color:#202020;
 
 }
 
 #azkenberriak {
+    border-radius: 50px;
+}
+
+#azkenberriak {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #424242
+    background-color: #424242 
+    
 }
 
 .berria {
@@ -42,6 +76,7 @@ body {
     margin-bottom: 25px;
     border-radius: 5px;
     text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -106,14 +141,6 @@ aside {
     border-radius: 15px;
 }
 
-.berria {
-    background-color: #dadada;
-    color: #202020;
-    padding: 10px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-}
-
 form {
     max-width: 600px;
     margin: 50px auto;
@@ -146,7 +173,6 @@ form textarea {
 }
 
 form button {
-    grid-column: 2 / 3;
     padding: 10px;
     background-color: #333;
     color: #fff;
@@ -246,7 +272,6 @@ header {
     overflow: hidden;
     justify-content: space-between;
     display: flex;
-
 }
 
 .slider ul {
@@ -270,6 +295,19 @@ header {
     border-radius: 10%;
 }
 
+.botonprincipal {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 1000px;
+    border-radius: 10px;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+.botonprincipal:hover {
+    background-color: #CD5C5C;
+    color: white;
+}
 @keyframes cambio {
     0% {
         margin-left: 0%
@@ -319,6 +357,9 @@ header {
 
 }
 
+.EgutegiTitle {
+    margin-left: 20px;
+}
 
 
 .egutegia {
@@ -326,7 +367,7 @@ header {
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
-
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .egutegia th,
@@ -469,82 +510,14 @@ aside {
 
 
 
-
-
-/*----Kendu (Kontaktua oinarri orrian)---*/
-form {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #dadada;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-}
-
-form label {
-    grid-column: 1 / 2;
-    margin-right: 10px;
-    align-items: center;
-}
-
-form input,
-form textarea {
-    grid-column: 2 / 3;
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-form textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-form button {
-    grid-column: 2 / 3;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-form button:hover {
-    background-color: #555;
-}
-
-/*----Kendu (Kontaktua oinarri orrian)---*/
-
-
-/*----GameStop Copyright Footer---*/
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #dadada;
-    font-style: oblique;
-    font-weight: bold;
-    color: #202020;
-    position: relative;
-    bottom: auto;
-}
-
-/*----GameStop Copyright Footer---*/
-
-
 /*----PH pertsonen egitura (PH orrian)---*/
 .foto {
-
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
     display: block;
     width: 100%;
-
 }
 
 .ph {
@@ -698,14 +671,24 @@ hr {
 
 }
 
-.botonprincipal:hover {
-    background-color: #CD5C5C;
-    color: white;
+.mapastream{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
 }
 
 .mapa {
-    display: grid;
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: #555;
+    padding: 25px;
+    width: 50%; 
+    margin-left: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream {
     color: white;
     background-color: #555;
     padding: 10px;
@@ -844,18 +827,39 @@ hr {
 }
 
 .papa {
+    width: 60%; 
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arauak{
     display: grid;
     color: white;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 500px;
-    height: 566px;
-    margin-top: 20px;
-
+    width: 1050px;
+    margin-top: 5%;
+    float: left;
+    margin: 2%;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.mama {
+.twitch {
+    max-width: 35%;
+    max-height: 20%;
+    background-color: #555;
+    padding: 25px;
+    border-radius: 15px;
+    float: right    ;
+    margin-right: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream p{
     display: grid;
     color: black;
     background-color: #dadada;
@@ -866,3 +870,12 @@ hr {
 
 }
 
+.arauak p{
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
+}
+/*----Gaming espazio orria---*/
