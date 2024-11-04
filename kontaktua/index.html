@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css" type="text/css">
-    <title>E1T2 GameStop Txapelketa</title>
+    <title>GameStop Txapelketa | Kontaktua</title>
 </head>
 
 <body>
@@ -13,14 +13,59 @@
         <a href="../index.html"><img class="logo" src="../argazkiak/gamestoplogo.png"></a>
         <nav>
             <ul>
-                <li><a href="../index.html">Parte-hartzaileak</a></li>
+                <li><a href="../ph/index.html">Parte-hartzaileak</a></li>
                 <li><a href="../berriak/index.html">Azken berriak</a></li>
                 <li><a href="../sailkapena/index.html">Sailkapena</a></li>
-                <li><a href="../Gaming-espazioa/index.html">Gaming espazioa</a></li>
-                <li><a href="index.html">Kontaktuan jarri</a></li>
+                <li><a href="/Gaming-espazioa/index.html">Gaming espazioa</a></li>
+                <li><a href="/kontaktua/index.html">Kontaktuan jarri</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="formularioa efecto_blur">
+        <div class="formulario">
+            <h2>Kontaktuan jarri</h2>
+            <div class="azalpena">
+                <p>Bidali zure mezua eta zurekin harremanetan jarriko gara lehenbailehen.</p>
+            </div>
+            <div class="celdas">
+
+                <form>
+                    <p>
+                        <label>Izena<span class="obligatorio">*</span></label>
+                        <input type="text" id="izena" required placeholder="Idatzi zure izena">
+                    </p>
+
+                    <p>
+                        <label>Posta elektronikoa<span class="obligatorio">*</span></label>
+                        <input type="email" id="email" required placeholder="Idatzi zure emaila">
+                    </p>
+
+                    <p>
+                        <label>Gaia<span class="obligatorio">*</span></label>
+                        <input type="text" id="gaia" required placeholder="Idatzi gai bat">
+                    </p>
+
+                    <p>
+                        <label>Mezua<span class="obligatorio">*</span></label>
+                        <textarea required placeholder="Idatzi hemen zure mezua..."></textarea>
+                    </p>
+
+                    <button type="submit">
+                        <p>Enviar</p>
+                    </button>
+                    <p class="oharra">
+                        <span class="obligatorio"> * </span>derrigorrezko eremuak.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy GameStop. Todos los derechos reservados.</p>
+    </footer> 
 </body>
 
 </html>
