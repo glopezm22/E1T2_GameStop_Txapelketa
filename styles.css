@@ -35,17 +35,34 @@ body {
     padding: 10px;
     border-radius: 10px;
     width: 1300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+.gamingoinarri {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right:0;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 523px;
+    height: 567px;
+    margin-top: 20px;
+    
+    
+}
+
+
+
 #azkenberriak {
     border-radius: 50px;
-
-
 }
 
 #azkenberriak {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #424242
+    background-color: #424242 
+    
 }
 
 .berria {
@@ -55,6 +72,7 @@ body {
     margin-bottom: 25px;
     border-radius: 5px;
     text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -119,50 +137,6 @@ aside {
     border-radius: 15px;
 }
 
-form {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #dadada;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-}
-
-form label {
-    grid-column: 1 / 2;
-    margin-right: 10px;
-    align-items: center;
-}
-
-form input,
-form textarea {
-    grid-column: 2 / 3;
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-form textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-form button {
-    grid-column: 2 / 3;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-form button:hover {
-    background-color: #555;
-}
 
 footer {
     text-align: center;
@@ -360,8 +334,8 @@ header {
 }
 
 .botonprincipal {
-    justify-content:left;
-    width: 1200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 130px;
     border-radius: 10px;
     padding: 1%;
     padding-left: 1%;
@@ -371,6 +345,9 @@ header {
 .botonprincipal:hover {
     background-color: #CD5C5C;
     color: white;
+}
+.botonprincipal p{
+
 }
 @keyframes cambio {
     0% {
@@ -406,15 +383,6 @@ header {
 
 }
 
-.buttonForm {
-    border-radius: 10px;
-    padding: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-
-
-}
-
 .buttonForm:hover {
     background-color: #CD5C5C;
     color: white;
@@ -431,7 +399,7 @@ header {
     margin: 20px 0;
     border-collapse: collapse;
     justify-self: center;
-
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .egutegia th,
@@ -550,25 +518,38 @@ nav ul li a:hover {
 /*----Orri Guztien GameStop Header eta Logoa----*/
 
 
-/*----KENDU---*/
-#kontaktua {
+
+/*----Oinarri orria azken berrien atala---*/
+.berria {
+    background-color: #dadada;
     color: #202020;
-    min-height: fit-content;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: justify;
 }
 
-/*----KENDU---*/
+aside {
+    padding: 20px;
+    float: right;
+    width: 25%;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+/*----Oinarri orria azken berrien atala---*/
+
+
 
 
 /*----PH pertsonen egitura (PH orrian)---*/
 .foto {
-
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
     display: block;
     width: 100%;
-
 }
 
 .ph {
@@ -873,12 +854,6 @@ hr {
     align-items: stretch;
 }
 
-.stream {
-    width: 10%;
-    height: auto;
-    padding-right: 20px;
-}
-
 .papa {
     display: grid;
     color: white;
@@ -888,10 +863,89 @@ hr {
     width: 500px;
     height: 566px;
     margin-top: 20px;
+    width: 60%; 
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gey {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
 
 }
 
-.mama {
+/*----Gaming espazio orria---*/
+
+hr{
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+    
+
+}
+
+.mapastream{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.mapa {
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: #555;
+    padding: 25px;
+    width: 50%; 
+    margin-left: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream {
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%; 
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arauak{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    margin-top: 5%;
+    float: left;
+    margin: 2%;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.twitch {
+    max-width: 35%;
+    max-height: 20%;
+    background-color: #555;
+    padding: 25px;
+    border-radius: 15px;
+    float: right    ;
+    margin-right: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream p{
     display: grid;
     color: black;
     background-color: #dadada;
@@ -933,4 +987,130 @@ hr {
     width: 120px;
     height: 50px;
 
+/*=============== KONTAKTU FORMULARIOA ===============*/
+
+.formularioa{  
+    width: 455px; 
+    height: auto;
+    margin: auto;
+    border: 2px solid #fafafa10;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    padding-left: 30px; 
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.efecto_blur{
+    background: #fafafa10;
+    backdrop-filter: blur(1.7rem);
+}  
+  
+  
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #fafafa10; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+  
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #fafafa10; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px;
+    resize: none;
+}
+  
+  
+label{
+    display: block; 
+}
+  
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #dadada; 
+    border-color: #fafafa10; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+}
+   
+button p{
+    color: #000000; 
+}
+
+button:active {
+    background-color: #97d848; 
+    border-color: #97d848;
+}
+  
+button p:active{
+    color: #222222; 
+}
+  
+span{
+    color: #d40000; 
+}
+   
+.oharra{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+   
+.azalpena {
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+  
+.azalpena p {
+    color: #fafafa;
+}
+  
+.celdas p{
+    font-size: 14px; 
+    color: #ffffff; 
+}
+   
+::-webkit-input-placeholder {
+   color: #a8a8a8;
+}
+   
+::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+}
+ 
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+    
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
+/*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
