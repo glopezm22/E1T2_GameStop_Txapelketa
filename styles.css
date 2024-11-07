@@ -1,4 +1,3 @@
-/*----Oinarri Orria----*/
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #202020;
@@ -37,6 +36,7 @@ body {
     width: 1300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 .gamingoinarri {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-right:0;
@@ -44,24 +44,26 @@ body {
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 523px;
-    height: 567px;
-    margin-top: 20px;
     
     
 }
 
+.gey {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
 
-
-#azkenberriak {
-    border-radius: 50px;
 }
+
 
 #azkenberriak {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #424242 
+    background-color: #424242 ;
+    border-radius: 50px;
     
 }
 
@@ -104,31 +106,6 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 aside {
     padding: 20px;
     float: right;
@@ -162,13 +139,11 @@ main{
     margin-left: 20px;
 }
 
-/*Aqui le meto el tipo de transicion*/
 .foto:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.1);
 }
 
-/*Aqui le meto que la transicion sea fluida con el transition: transform 0.3s ease;*/
 .foto {
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -263,24 +238,16 @@ header {
 
 .contenedor {
     text-align: center;
-    /* Centra el contenido dentro de la celda */
     border: 2px;
-    /* Borde estándar */
     border-radius: 15px;
-    /* Borde redondeado */
     padding: 10px;
-    /* Espacio interno dentro del contenedor */
     margin: 10px;
-    /* Espacio externo alrededor del contenedor */
 }
 
 .foto {
     margin: 0 auto;
-    /* Centra la imagen */
     display: block;
-    /* Asegura que la imagen esté en su propia línea */
     width: 100%;
-    /* Ajusta el tamaño de la imagen al contenedor si es necesario */
 }
 
 .texto {
@@ -346,9 +313,8 @@ header {
     background-color: #CD5C5C;
     color: white;
 }
-.botonprincipal p{
 
-}
+
 @keyframes cambio {
     0% {
         margin-left: 0%
@@ -466,10 +432,6 @@ aside {
     border-radius: 15px;
 }
 
-/*----Oinarri orria azken berrien atala---*/
-
-/*----Oinarri Orria----*/
-
 
 /*----Orri Guztien GameStop Header eta Logoa----*/
 .logo {
@@ -509,14 +471,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #f0f0f0;
-    padding: 15px;
     border-radius: 5px;
 }
-
-/*----Header Menua---*/
-
-/*----Orri Guztien GameStop Header eta Logoa----*/
-
+/*----Header Menua Amaiera---*/
 
 
 /*----Oinarri orria azken berrien atala---*/
@@ -850,7 +807,6 @@ hr {
 .mix {
     display: flex;
     justify-content: space-between;
-    margin-right: 1100px;
     align-items: stretch;
 }
 
@@ -870,16 +826,7 @@ hr {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 500px;
-    height: 450px;
 
-}
 
 /*----Gaming espazio orria---*/
 
@@ -986,7 +933,7 @@ hr{
     margin-left: 10px;
     width: 120px;
     height: 50px;
-
+}
 /*=============== KONTAKTU FORMULARIOA ===============*/
 
 .formularioa{  
@@ -1114,3 +1061,52 @@ span{
 }
 
 /*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
+
+/*=============== GRID HASIERA ===============*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 100%; 
+    margin-left: 1%;
+
+}
+#sarrera {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#azkenberria {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+
+#partehartzaileak {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+#sailkapena {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+#gamingespazioa {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    
+    #sarrera, #azkenberria, #partehartzaileak, #sailkapena, #gamingespazioa {
+        grid-column: 1;
+        grid-row: auto;
+    }
+}
+}
+
+
+/*=============== GRID AMAIERA ===============*/
