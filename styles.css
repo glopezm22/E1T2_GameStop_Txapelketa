@@ -1,4 +1,3 @@
-/*----Oinarri Orria----*/
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #202020;
@@ -37,6 +36,7 @@ body {
     width: 1300px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 .gamingoinarri {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-right:0;
@@ -44,24 +44,26 @@ body {
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    width: 523px;
-    height: 567px;
-    margin-top: 20px;
     
     
 }
 
+.gey {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
 
-
-#azkenberriak {
-    border-radius: 50px;
 }
+
 
 #azkenberriak {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-right: 20px;
-    background-color: #424242 
+    background-color: #424242 ;
+    border-radius: 50px;
     
 }
 
@@ -104,31 +106,6 @@ header h1 {
     margin: 0;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 aside {
     padding: 20px;
     float: right;
@@ -152,18 +129,21 @@ footer {
 .foto {
 
     display: flex;
+    width: 10%;
+    margin-right: 10%;
     align-items: center;
     flex-wrap: wrap;
 
 }
+main{
+    margin-left: 20px;
+}
 
-/*Aqui le meto el tipo de transicion*/
 .foto:hover {
     -webkit-transform: scale(1.3);
     transform: scale(1.1);
 }
 
-/*Aqui le meto que la transicion sea fluida con el transition: transform 0.3s ease;*/
 .foto {
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -216,6 +196,78 @@ header {
 .arrunta {
     justify-content: left;
     margin-right: 30%;
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.ph img {
+    max-width: 300px;
+    height: auto;
+
+}
+
+
+
+
+
+.fila-nombres {
+    background-color: white;
+    height: 50px;
+
+}
+
+.pj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.pj img {
+    max-width: 300px;
+    height: auto;
+    padding: 50px;
+    border-radius: 90px;
+    background-color: #2e2e2e;
+    background: fixed;
+}
+
+.contenedor {
+    text-align: center;
+    border: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.foto {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.texto {
+    margin-top: 10px;
+    text-align: center;
+    color:#202020;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    
+  
+    
+}
+.texto :hover{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    width: 1270px;
 }
 
 .slider {
@@ -261,9 +313,8 @@ header {
     background-color: #CD5C5C;
     color: white;
 }
-.botonprincipal p{
 
-}
+
 @keyframes cambio {
     0% {
         margin-left: 0%
@@ -298,6 +349,11 @@ header {
 
 }
 
+.buttonForm:hover {
+    background-color: #CD5C5C;
+    color: white;
+
+}
 
 .EgutegiTitle {
     margin-left: 20px;
@@ -376,10 +432,6 @@ aside {
     border-radius: 15px;
 }
 
-/*----Oinarri orria azken berrien atala---*/
-
-/*----Oinarri Orria----*/
-
 
 /*----Orri Guztien GameStop Header eta Logoa----*/
 .logo {
@@ -419,14 +471,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #f0f0f0;
-    padding: 15px;
     border-radius: 5px;
 }
-
-/*----Header Menua---*/
-
-/*----Orri Guztien GameStop Header eta Logoa----*/
-
+/*----Header Menua Amaiera---*/
 
 
 /*----Oinarri orria azken berrien atala---*/
@@ -614,6 +661,65 @@ hr {
 }
 
 
+.mapa{
+    display: grid;
+    justify-items: center; 
+    margin-left: 2%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    
+    
+}
+
+.mapa {
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1300px;
+    margin-left: 2%;
+}
+
+.mapa p {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1270px;
+    margin-left: 2%;
+}
+
+
+
+
+.twitch {
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    margin-top: 5%;
+    float: right;
+    margin-right: 2%;
+}
+
+.stream p{
+    width: 1300px;
+    margin-left: 2%;
+}
+
+.twitch p {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1270px;
+    margin-left: 2%;
+}
 
 
 
@@ -701,11 +807,18 @@ hr {
 .mix {
     display: flex;
     justify-content: space-between;
-    margin-right: 1100px;
     align-items: stretch;
 }
 
 .papa {
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 566px;
+    margin-top: 20px;
     width: 60%; 
     margin-top: 5%;
     margin-right: 2%;
@@ -714,22 +827,6 @@ hr {
 }
 
 
-
-
-
-
-
-
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 500px;
-    height: 450px;
-
-}
 
 /*----Gaming espazio orria---*/
 
@@ -812,8 +909,31 @@ hr{
     border-radius: 10px;
     width: 1000px;
 }
-/*----Gaming espazio orria---*/
 
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+#cookieConsent p {
+    display: inline;
+    margin: 0;
+}
+#cookieConsent button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+}
 /*=============== KONTAKTU FORMULARIOA ===============*/
 
 .formularioa{  
@@ -942,3 +1062,51 @@ span{
 
 /*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
 
+/*=============== GRID HASIERA ===============*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 100%; 
+    margin-left: 1%;
+
+}
+#sarrera {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#azkenberria {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+
+#partehartzaileak {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+#sailkapena {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+#gamingespazioa {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    
+    #sarrera, #azkenberria, #partehartzaileak, #sailkapena, #gamingespazioa {
+        grid-column: 1;
+        grid-row: auto;
+    }
+}
+}
+
+
+/*=============== GRID AMAIERA ===============*/
