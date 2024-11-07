@@ -942,29 +942,3 @@ span{
 
 /*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
 
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
-}
-.BodyText1{
-    display: grid;
-    grid-column: 1/3;
-    grid-row: 1;
-}
-.BodyText2{
-    display: grid;
-    grid-column: 3/4;
-    grid-row: 2;
-}
-.BodyText3{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 3;
-}
-.BodyText4{
-    
-}
-.BodyText5{
-    
-}
