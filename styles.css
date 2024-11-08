@@ -8,9 +8,10 @@ h4 {
     font-weight: bold;
 
 }
-
 /* ======= TITULUAK AMAIERA ======= */
 
+
+/* ======= BODY ======= */
 body {
     background-color: #202020;
     font-family: Arial, sans-serif;
@@ -19,18 +20,46 @@ body {
     color: #f0f0f0;
     text-align: justify;
 }
+/* ======= BODY AMAIERA ======= */
 
-.logo {
- height: 35%;
- width: 35%;
+
+/*=============== GRID PAGINA PRINCIPAL ===============*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 100%; 
+    margin-left: 1%;
 }
 
-.BodyText {
-    margin: 20px;
-    text-align: justify;
+#sarrera {
+    grid-column: 1 / span 3;
+    grid-row: 1;
 }
 
+#azkenberria {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
 
+#partehartzaileak {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+#sailkapena {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+#gamingespazioa {
+    grid-column: 4;
+    grid-row: 3;
+}
+/*=============== GRID AMAIERA ===============*/
+
+
+/*=============== KUTXAK ===============*/
 .guztia{
     display: grid;
     color: white;
@@ -41,132 +70,6 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.gamingoinarri {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-right:0;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    
-    
-}
-
-
-
-
-
-
-
-
-#edukia {
-    margin: 2%;
-}
-
-
-
-#kontaktua {
-    color: #202020;
-    min-height: fit-content;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #dadada;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-aside {
-    padding: 20px;
-    float: right;
-    width: 25%;
-    background-color: #555;
-    border-radius: 15px;
-}
-
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #dadada;
-    font-style: oblique;
-    font-weight: bold;
-    color: #202020;
-    position: relative;
-    bottom: auto;
-}
-
-.foto {
-
-    display: flex;
-    width: 10%;
-    margin-right: 10%;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-main{
-    margin-left: 20px;
-}
-
-.foto:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.1);
-}
-
-.foto {
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-
-.personal img {
-    width: 10%;
-    border-radius: 10px;
-
-
-}
-
-.descr {
-    margin-left: 20px;
-    text-align: center;
-
-}
-
-.gear-items img {
-    display: flex;
-    width: 35%;
-    height: 15%;
-    flex-wrap: wrap;
-    margin-left: 30%;
-    border-radius: 10%;
-
-}
-
-.gear-section {
-    margin: 20px;
-}
-
-.gear-items {
-    text-align: center;
-
-}
-
-.deskribapena {
-    justify-content: center;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-header {
-    margin-bottom: 2%;
-}
-
-
 .arrunta {
     justify-content: left;
     margin-right: 30%;
@@ -176,74 +79,58 @@ header {
     padding: 10px;
     border-radius: 10px;
     width: 98%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+/*=============== KUTXAK AMAIERA ===============*/
+
+
+/*=============== HEADER ETA LOGOA ===============*/
+.logo {
+    height: 35%;
+    width: 35%;
 }
 
-.ph img {
-    max-width: 300px;
-    height: auto;
-
-}
-
-
-
-
-
-.fila-nombres {
-    background-color: white;
-    height: 50px;
-
-}
-
-.pj {
+header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    justify-content: space-between;
+    margin-bottom: 2%;
+    align-items: center;
+    padding: 20px;
+    background-color: #dadada;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/*=============== HEADER ETA LOGOA AMAIERA ===============*/
 
-.pj img {
-    max-width: 300px;
-    height: auto;
-    padding: 50px;
-    border-radius: 90px;
-    background-color: #2e2e2e;
-    background: fixed;
-}
 
-.contenedor {
-    text-align: center;
-    border: 2px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.foto {
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-}
-
-.texto {
-    margin-top: 10px;
-    text-align: center;
-    color:#202020;
-    font-weight: bold;
+/*=============== HEADER MENUA ===============*/
+nav ul {
+    list-style: none;
     margin: 0;
-    padding: 10px;
-    
-  
-    
-}
-.texto :hover{
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    
-    width: 1270px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+/*=============== HEADER MENUA AMAIERA ===============*/
+
+
+/*=============== SLIDER ===============*/
 .slider {
     width: auto;
     height: auto;
@@ -274,21 +161,6 @@ header {
     border-radius: 10%;
 }
 
-.botonprincipal {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    width: 130px;
-    border-radius: 10px;
-    padding: 1%;
-    padding-left: 1%;
-    padding-right: 1%
-}
-
-.botonprincipal:hover {
-    background-color: #CD5C5C;
-    color: white;
-}
-
-
 @keyframes cambio {
     0% {
         margin-left: 0%
@@ -313,26 +185,14 @@ header {
     100% {
         margin-left: -200%
     }
-
-
-
 }
+/*=============== SLIDER AMAIERA ===============*/
 
-.ikusigehiago {
-    margin: 20px;
 
-}
-
-.buttonForm:hover {
-    background-color: #CD5C5C;
-    color: white;
-
-}
-
+/*=============== EGUTEGIA ===============*/
 .EgutegiTitle {
     margin-left: 20px;
 }
-
 
 .egutegia {
     width: 100%;
@@ -375,153 +235,130 @@ header {
 .fondo-gris td {
     color: #d3d3d3;
 }
+/*=============== EGUTEGIA AMAIERA ===============*/
 
 
-#azkenberriak {
-    border-radius: 50px;
-    margin-top: 50px;
-    margin-right: 20px;
-    background-color: #424242
-}
-
-#edukia {
-    margin: 2%;
-}
-
-/*----Oinarri orria azken berrien atala---*/
-.berria {
-    background-color: #dadada;
-    color: #202020;
+/*=============== COOKIES ===============*/
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
     padding: 10px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    text-align: justify;
+    z-index: 1000;
 }
 
-aside {
-    padding: 20px;
-    float: right;
-    width: 25%;
-    background-color: #555;
-    border-radius: 15px;
-}
-
-
-/*----Orri Guztien GameStop Header eta Logoa----*/
-.logo {
-    height: 35%;
-    width: 35%;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2%;
-    align-items: center;
-    padding: 20px;
-    background-color: #dadada;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/*----Header menua---*/
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
+#cookieConsent p {
     display: inline;
+    margin: 0;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+#cookieConsent button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+}
+/*=============== COOKIES AMAIERA ===============*/
+
+
+/*=============== FOOTER ===============*/
+footer {
+    text-align: center;
     padding: 10px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #f0f0f0;
-    border-radius: 5px;
-}
-/*----Header Menua Amaiera---*/
-
-
-/*----Oinarri orria azken berrien atala---*/
-.berria {
     background-color: #dadada;
+    font-style: oblique;
+    font-weight: bold;
     color: #202020;
-    padding: 10px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    text-align: justify;
+    position: relative;
+    bottom: auto;
 }
-
-aside {
-    padding: 20px;
-    float: right;
-    width: 25%;
-    background-color: #555;
-    border-radius: 15px;
-}
-
-/*----Oinarri orria azken berrien atala---*/
+/*=============== FOOTER AMAIERA ===============*/
 
 
-
-
-/*----PH pertsonen egitura (PH orrian)---*/
-.foto {
+/*=============== INDEX PH  ===============*/
+.pj {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.pj img {
+    max-width: 300px;
+    height: auto;
+    padding: 50px;
+    border-radius: 90px;
+    background-color: #2e2e2e;
+    background: fixed;
+}
+/*=============== INDEX PH AMAIERA ===============*/
+
+
+/*=============== INDEX PH ARGAZKIAK ETA TESTUA ===============*/
+.foto {
+
+    display: flex;
+    width: 10%;
+    margin-right: 10%;
     align-items: center;
     flex-wrap: wrap;
+
+}
+
+.foto:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.1);
+}
+
+.foto {
+    overflow: hidden;
+    transition: transform 0.3s ease;
     margin: 0 auto;
     display: block;
     width: 100%;
 }
 
-.ph {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 80px;
-    border-radius: 10px;
-
-}
-
-.ph img {
-    max-width: 300px;
-    height: auto;
-
-}
-
-.fila-nombres {
-    background-color: white;
-    height: 50px;
-
-}
-
-.contenedor {
+.texto {
+    margin-top: 10px;
     text-align: center;
-    border: 2px;
-    border-radius: 15px;
+    color:white;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;   
+}
+.texto :hover{
+    background-color: #f0f0f0;
     padding: 10px;
-    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 1270px;
 }
+/*=============== INDEX PH ARGAZKIAK ETA TESTUA AMAIERA ===============*/
 
-/*----PH-en pertsonen egitura (PH orrian)---*/
 
-
-/*----PH pertsona bakoitzaren barruko html-aren egitura---*/
-.personal img {
-    width: 10%;
-}
-
+/*=============== PARTEHARTZAILE PERTSONALAK ===============*/
 .descr {
     margin-left: 20px;
     text-align: center;
+}
+
+.personal img {
+    width: 10%;
+    border-radius: 10px;
+}
+
+.deskribapena {
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .gear-items img {
@@ -543,25 +380,101 @@ aside {
 
 }
 
-.deskribapena {
-    justify-content: center;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+.buttonForm:hover {
+    background-color: #CD5C5C;
+    color: white;
+}
+/*=============== PARTEHARTZAILE PERTSONALAK ===============*/
+
+
+/*=============== GAMING ESPAZIO ORRIA ===============*/
+hr{
+    border: none;
+    border-top: 1px solid white;
+    margin: 10px 0;
+    
+
 }
 
-.texto {
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    margin: 0;
+.mapastream{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.mapa {
+    display: grid;
+    border-radius: 15px;
+    max-width: 600px;
+    background-color: #555;
     padding: 10px;
+    width: 50%; 
+    margin-left: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/*----PH pertsona bakoitzaren barruko html-aren egitura---*/
+.stream {
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%; 
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream p{
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: 2%;
+}
+
+.arauak{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1050px;
+    margin-top: 5%;
+    float: left;
+    margin: 2%;
+    margin-bottom: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arauak p{
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+.twitch {
+    max-width: 35%;
+    max-height: 20%;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    display: grid;
+    float: right;
+    margin-top: 5%;
+}
+/*=============== GAMING ESPAZIO ORRIA AMAIERA ===============*/
 
 
-/*----Azken berrien INDEX-aren estiloa---*/
+/*=============== AZKEN BERRIAK ===============*/
 .news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -578,89 +491,10 @@ aside {
     color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-hr {
-    border: none;
-    border-top: 1px solid white;
-    margin: 10px 0;
+/*=============== AZKEN BERRIAK AMAIERA ===============*/
 
 
-}
-
-.botonprincipal {
-    border-radius: 10px;
-    padding: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-right: 500px;
-
-
-
-}
-
-
-.mapa{
-    display: grid;
-    justify-items: center; 
-    margin-left: 2%;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2%;
-    
-    
-}
-
-.mapa {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1300px;
-    margin-left: 2%;
-}
-
-.mapa p {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
-    margin-left: 2%;
-}
-
-
-
-
-.twitch {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1050px;
-    margin-top: 5%;
-    float: right;
-    margin-right: 2%;
-}
-
-.stream p{
-    width: 1300px;
-    margin-left: 2%;
-}
-
-.twitch p {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
-    margin-left: 2%;
-}
-
-
-
+/*=============== SAILKAPENA ===============*/
 .tournament-grid {
     display: flex;
     justify-content: center;
@@ -708,7 +542,6 @@ hr {
     gap: 80px;
 }
 
-
 .finalista-A {
     position: absolute;
     top: 250px;
@@ -720,7 +553,6 @@ hr {
     top: 250px;
     right: 430px;
 }
-
 
 .final {
     position: absolute;
@@ -741,139 +573,10 @@ hr {
     align-items: center;
     border-radius: 8px;
 }
-
-.mix {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.papa {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 500px;
-    height: 566px;
-    margin-top: 20px;
-    width: 60%; 
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 5%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
+/*=============== SAILKAPENA ===============*/
 
 
-
-/*----Gaming espazio orria---*/
-
-hr{
-    border: none;
-    border-top: 1px solid white;
-    margin: 10px 0;
-    
-
-}
-
-.mapastream{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
-}
-
-.mapa {
-    border-radius: 15px;
-    max-width: 600px;
-    background-color: #555;
-    padding: 25px;
-    width: 50%; 
-    margin-left: 2%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.stream {
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 60%; 
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 5%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.arauak{
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1050px;
-    margin-top: 5%;
-    float: left;
-    margin: 2%;
-    margin-bottom: 0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.twitch {
-    max-width: 35%;
-    max-height: 20%;
-    background-color: #555;
-    padding: 25px;
-    border-radius: 15px;
-    float: right    ;
-    margin-right: 2%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.stream p{
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1000px;
-}
-
-.arauak p{
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1000px;
-}
-
-#cookieConsent {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    z-index: 1000;
-}
-#cookieConsent p {
-    display: inline;
-    margin: 0;
-}
-#cookieConsent button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-    margin-left: 10px;
-    width: 120px;
-    height: 50px;
-}
 /*=============== KONTAKTU FORMULARIOA ===============*/
-
 .formularioa{  
     width: 455px; 
     height: auto;
@@ -893,7 +596,6 @@ hr{
     backdrop-filter: blur(1.7rem);
 }  
   
-  
 input{
     background-color: #fbfbfb; 
     width: 408px; 
@@ -905,8 +607,7 @@ input{
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
-}
-  
+} 
   
 textarea{
     background-color: #fbfbfb; 
@@ -922,8 +623,7 @@ textarea{
     padding-top: 15px;
     resize: none;
 }
-  
-  
+    
 label{
     display: block; 
 }
@@ -997,110 +697,30 @@ span{
     outline:0;
     border: 1px solid #97d848;
 }
-
 /*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
 
-/*=============== GRID HASIERA ===============*/
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    max-width: 100%; 
-    margin-left: 1%;
 
-}
-#sarrera {
-    grid-column: 1 / span 3;
-    grid-row: 1;
-}
-
-#azkenberria {
-    grid-column: 4;
-    grid-row: 1 / span 2;
-}
-
-#partehartzaileak {
-    grid-column: 1 / span 3;
-    grid-row: 2;
-}
-
-#sailkapena {
-    grid-column: 1 / span 3;
-    grid-row: 3;
-}
-
-#gamingespazioa {
-    grid-column: 4;
-    grid-row: 3;
-}
-
-#gamingespazioa {
-    margin-right: 1150px;
-    text-align: justify;
-
-}
-
-/*=============== GRID AMAIERA ===============*/
-
-/*=============== KUTXAK HASIERA ===============*/
-
-#azkenberriak {
+/*=============== GEHIAGO IKUSI BOTOIA ===============*/
+.botonprincipal {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
-    margin-right: 20px;
-    background-color: #424242 ;
-    border-radius: 50px;
-    
+    width: 130px;
+    border-radius: 10px;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%
 }
 
-.berria {
-    background-color: #dadada;
-    color: #202020;
-    padding: 10px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    text-align: justify;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.guztia{
-    display: grid;
+.botonprincipal:hover {
+    background-color: #CD5C5C;
     color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-   
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-.arrunta {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-
-}
+/*=============== GEHIAGO IKUSI BOTOIA AMAIERA ===============*/
 
 
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
 
-}
 
-.gamingoinarri {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-right:0;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    
-    
-}
 
-/*=============== KUTXAK AMAIERA ===============*/
+
+
+
+
