@@ -1,3 +1,4 @@
+/* ======= TITULUAK ======= */
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #202020;
@@ -7,6 +8,8 @@ h4 {
     font-weight: bold;
 
 }
+
+/* ======= TITULUAK AMAIERA ======= */
 
 body {
     background-color: #202020;
@@ -27,6 +30,27 @@ body {
     text-align: justify;
 }
 
+
+.guztia{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gamingoinarri {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right:0;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
 
 
 
@@ -53,10 +77,6 @@ header {
     padding: 20px;
     background-color: #dadada;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin: 0;
 }
 
 aside {
@@ -147,6 +167,16 @@ header {
 }
 
 
+.arrunta {
+    justify-content: left;
+    margin-right: 30%;
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 98%;
+}
 
 .ph img {
     max-width: 300px;
@@ -473,22 +503,6 @@ aside {
 
 }
 
-.pj {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.pj img {
-    max-width: 300px;
-    height: auto;
-    padding: 50px;
-    border-radius: 90px;
-    background-color: #2e2e2e;
-    background: fixed;
-}
-
 .contenedor {
     text-align: center;
     border: 2px;
@@ -564,11 +578,6 @@ aside {
     color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-
-
-
-
 
 hr {
     border: none;
