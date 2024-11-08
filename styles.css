@@ -1,3 +1,4 @@
+/* ======= TITULUAK ======= */
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #202020;
@@ -8,22 +9,14 @@ h4 {
 
 }
 
+/* ======= TITULUAK AMAIERA ======= */
+
 body {
     background-color: #202020;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #f0f0f0;
-    text-align: justify;
-}
-
-.logo {
- height: 35%;
- width: 35%;
-}
-
-.BodyText {
-    margin: 20px;
     text-align: justify;
 }
 
@@ -46,15 +39,6 @@ body {
     border-radius: 10px;
     
     
-}
-
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-
 }
 
 
@@ -100,10 +84,6 @@ header {
     padding: 20px;
     background-color: #dadada;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    margin: 0;
 }
 
 aside {
@@ -189,10 +169,6 @@ main{
     margin-right: 20%;
 }
 
-header {
-    margin-bottom: 2%;
-}
-
 .arrunta {
     justify-content: left;
     margin-right: 30%;
@@ -201,7 +177,7 @@ header {
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
-
+    width: 98%;
 }
 
 .ph img {
@@ -529,22 +505,6 @@ aside {
 
 }
 
-.pj {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.pj img {
-    max-width: 300px;
-    height: auto;
-    padding: 50px;
-    border-radius: 90px;
-    background-color: #2e2e2e;
-    background: fixed;
-}
-
 .contenedor {
     text-align: center;
     border: 2px;
@@ -619,26 +579,6 @@ aside {
     padding: 1em;
     color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-
-.guztia {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1300px;
-}
-
-.arrunta {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
-
 }
 
 hr {
@@ -1096,17 +1036,6 @@ span{
     grid-row: 3;
 }
 
-
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-    
-    #sarrera, #azkenberria, #partehartzaileak, #sailkapena, #gamingespazioa {
-        grid-column: 1;
-        grid-row: auto;
-    }
-}
-}
 
 
 /*=============== GRID AMAIERA ===============*/
