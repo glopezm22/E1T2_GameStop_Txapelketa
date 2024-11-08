@@ -27,66 +27,19 @@ body {
     text-align: justify;
 }
 
-.guztia{
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1300px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.gamingoinarri {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-right:0;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    
-    
-}
-
-.gey {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-
-}
 
 
-#azkenberriak {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    margin-top: 50px;
-    margin-right: 20px;
-    background-color: #424242 ;
-    border-radius: 50px;
-    
-}
 
-.berria {
-    background-color: #dadada;
-    color: #202020;
-    padding: 10px;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    text-align: justify;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
+
+
+
 
 
 #edukia {
     margin: 2%;
 }
 
-#gamingespazioa {
-    margin-right: 1150px;
-    text-align: justify;
 
-}
 
 #kontaktua {
     color: #202020;
@@ -193,16 +146,7 @@ header {
     margin-bottom: 2%;
 }
 
-.arrunta {
-    justify-content: left;
-    margin-right: 30%;
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
 
-}
 
 .ph img {
     max-width: 300px;
@@ -622,24 +566,9 @@ aside {
 }
 
 
-.guztia {
-    display: grid;
-    color: white;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1300px;
-}
 
-.arrunta {
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 1270px;
 
-}
+
 
 hr {
     border: none;
@@ -1096,17 +1025,73 @@ span{
     grid-row: 3;
 }
 
+#gamingespazioa {
+    margin-right: 1150px;
+    text-align: justify;
 
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-    
-    #sarrera, #azkenberria, #partehartzaileak, #sailkapena, #gamingespazioa {
-        grid-column: 1;
-        grid-row: auto;
-    }
 }
-}
-
 
 /*=============== GRID AMAIERA ===============*/
+
+/*=============== KUTXAK HASIERA ===============*/
+
+#azkenberriak {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: #424242 ;
+    border-radius: 50px;
+    
+}
+
+.berria {
+    background-color: #dadada;
+    color: #202020;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.guztia{
+    display: grid;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arrunta {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+.gey {
+    display: grid;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.gamingoinarri {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    margin-right:0;
+    color: white;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+/*=============== KUTXAK AMAIERA ===============*/
