@@ -61,28 +61,20 @@ body {
 
 /*=============== KUTXAK ===============*/
 .guztia{
-    /*display: grid;*/
     color: white;
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
-    /*width: 1300px;*/
-    box-shadow: 0px 4px 8px rgba(0
-    
-    
-    , 0, 0, 0.3);
-  /*  margin-bottom: 10px;*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    height: 96%;
 }
 
 .arrunta {
     justify-content: left;
-    /*margin-right: 30%;*/
-    /*display: grid;*/
     color: black;
     background-color: #dadada;
     padding: 10px;
     border-radius: 10px;
-    /*width: 98%;*/
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -103,6 +95,22 @@ header {
     padding: 20px;
     background-color: #dadada;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header i.fa-instagram {
+    font-size: 32px;
+    color: #000;
+    justify-content: center; 
+}
+header i.fa-tiktok {
+    font-size: 32px;
+    color: #000;
+    justify-content: center; 
+}
+header i.fa-youtube {
+    font-size: 32px;
+    color: #000;
+    justify-content: center; 
 }
 /*=============== HEADER ETA LOGOA AMAIERA ===============*/
 
@@ -408,11 +416,10 @@ hr{
 }
 
 .mapa {
-    display: grid;
     border-radius: 15px;
     max-width: 600px;
     background-color: #555;
-    padding: 10px;
+    padding: 25px;
     width: 50%; 
     margin-left: 2%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -430,16 +437,6 @@ hr{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.stream p{
-    display: grid;
-    color: black;
-    background-color: #dadada;
-    padding: 10px;
-    border-radius: 10px;
-    width: 800px;
-    margin-left: 2%;
-}
-
 .arauak{
     display: grid;
     color: white;
@@ -454,7 +451,18 @@ hr{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.arauak p{
+.twitch {
+    max-width: 35%;
+    max-height: 20%;
+    background-color: #555;
+    padding: 25px;
+    border-radius: 15px;
+    float: right    ;
+    margin-right: 2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stream p{
     display: grid;
     color: black;
     background-color: #dadada;
@@ -463,17 +471,13 @@ hr{
     width: 1000px;
 }
 
-.twitch {
-    max-width: 35%;
-    max-height: 20%;
-    background-color: #555;
-    padding: 10px;
-    border-radius: 15px;
-    margin-right: 2%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+.arauak p{
     display: grid;
-    float: right;
-    margin-top: 5%;
+    color: black;
+    background-color: #dadada;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
 }
 /*=============== GAMING ESPAZIO ORRIA AMAIERA ===============*/
 
@@ -482,7 +486,7 @@ hr{
 .news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5em;
+    gap: 50px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 5em;
@@ -575,7 +579,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 /*=============== SAILKAPENA ===============*/
 
@@ -704,21 +708,20 @@ span{
 /*=============== KONTAKTU FORMULARIOA AMAIERA ===============*/
 
 
-/*=============== GEHIAGO IKUSI BOTOIA ===============*/
+/*=============== GEHIAGO IKUSI BOTOIA ===============
 .botonprincipal {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     width: 150px;
     border-radius: 10px;
     padding: 1%;
-    padding-left: 1%;
-    padding-right: 1%
+    margin-right: 5%;
 }
 
 .botonprincipal:hover {
     background-color: #CD5C5C;
     color: white;
 }
-/*=============== GEHIAGO IKUSI BOTOIA AMAIERA ===============*/
+=============== GEHIAGO IKUSI BOTOIA AMAIERA ===============*/
 
 
 
