@@ -27,6 +27,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     max-width: 100%; 
     margin-left: 1%;
@@ -63,10 +64,10 @@ body {
 .guztia{
     color: white;
     background-color: #555;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-    height: 96%;
 }
 
 .arrunta {
@@ -421,19 +422,18 @@ hr{
     background-color: #555;
     padding: 25px;
     width: 50%; 
-    margin-left: 2%;
+    margin-left: -60px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .stream {
     color: white;
     background-color: #555;
-    padding: 10px;
+    padding: 25px;
     border-radius: 10px;
     width: 60%; 
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 5%;
+    margin:2%;
+    margin-right: 5%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -466,9 +466,10 @@ hr{
     display: grid;
     color: black;
     background-color: #dadada;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     width: 1000px;
+    margin-right: 135px;
 }
 
 .arauak p{
